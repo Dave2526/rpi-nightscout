@@ -25,7 +25,7 @@ WORKDIR /home/node/app
 
 # install the application
 RUN git clone https://github.com/nightscout/cgm-remote-monitor.git . && \
-    git checkout tags/14.0.6 && \
+    git checkout tags/14.2.1 && \
     npm install
 
 EXPOSE 1337
