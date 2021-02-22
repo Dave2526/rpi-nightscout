@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM arm32v7/node:12-buster
+FROM arm32v7/node:15-buster
 
 # install git and npm
 RUN apt-get update && apt-get install -y software-properties-common python g++ make git
