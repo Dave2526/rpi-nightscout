@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM node:14.15.3
+FROM node:lts
 
 # install git and npm
 RUN apt-get update && apt-get install -y software-properties-common python g++ make git
